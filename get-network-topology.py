@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+##!/usr/bin/env python3
 """
 get-network-topology.py — Azure Network Topology Generator for AED/ESME [Beta]
 
