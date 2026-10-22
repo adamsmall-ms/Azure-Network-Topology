@@ -14,9 +14,7 @@ The script supports Windows, macOS, and Linux with PowerShell 7.
 ## 1. Download the script
 
 1. Open https://github.com/adamsmall-ms/Azure-Network-Topology
-2. Select the terminal toolbar icon labeled **Generate JSON via scripts**.
-3. Select **PowerShell**, then **Download PowerShell Script**.
-4. Save `Get-NetworkTopology.ps1` and open PowerShell 7 in that folder.
+2. Save `Get-NetworkTopology.ps1` and open PowerShell 7 in that folder.
 
 ## 2. Check prerequisites and sign in
 
@@ -92,6 +90,3 @@ Without a baseline, `topologyVersion` defaults to 1. Keep the previous JSON unde
 - If `az` is not found, install Azure CLI or correct your terminal's PATH.
 - If the target subscription is missing, confirm the signed-in tenant and your Reader permissions.
 - If discovery reports errors, review them before treating the diagram as a complete inventory.
-- Handle the JSON and exported diagrams as sensitive infrastructure information. Share only through approved channels.
-
-These instructions reflect the viewer's PowerShell tab reviewed on October 21, 2026. Download the script from the application to obtain its current version.
