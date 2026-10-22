@@ -16,8 +16,8 @@ The script supports Windows, macOS, Linux, and Azure Cloud Shell.
 ## 1. Download the script
 
 1. Open https://github.com/adamsmall-ms/Azure-Network-Topology
-4. Save `get-network-topology-graph.py` and open a terminal in that folder.
-5. If using Cloud Shell, upload the script into that environment first.
+2. Save `get-network-topology-graph.py` and open a terminal in that folder.
+3. If using Cloud Shell, upload the script into that environment first.
 
 ## 2. Check prerequisites and sign in
 
@@ -93,6 +93,3 @@ Without a baseline, `topologyVersion` defaults to 1. Keep the previous JSON unde
 - If the script reports a missing Azure CLI extension or another prerequisite, follow its explicit guidance using your organization's approved installation process.
 - If results appear incomplete, run a standard discovery script against the same intended scope and compare the results. Report Graph-script issues through the application's available feedback route.
 - Review discovery errors before treating the diagram as a complete inventory.
-- Handle the JSON and exported diagrams as sensitive infrastructure information. Share only through approved channels.
-
-These instructions reflect the viewer's Graph tab reviewed on October 21, 2026. Download the script from the application to obtain its current version and check whether its testing status has changed.
