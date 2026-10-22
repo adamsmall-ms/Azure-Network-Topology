@@ -45,7 +45,7 @@
     ./Get-NetworkTopology.ps1 -Title merge file1.json file2.json -o merged.json
 
 .NOTES
-    Dependencies: Azure CLI 2.50+
+    Dependencies: Azure CLI 2.60+
     The script checks for these automatically and will prompt to
     install any missing tools or log in to Azure if needed.
 #>
