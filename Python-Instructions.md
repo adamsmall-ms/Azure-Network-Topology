@@ -85,5 +85,3 @@ Without a baseline, `topologyVersion` defaults to 1. Keep the previous JSON unde
 - If Python or `az` is not found, install the prerequisite or correct your terminal's PATH.
 - If the target subscription is missing, confirm the signed-in tenant and your Reader permissions.
 - If discovery reports errors, review them before treating the diagram as a complete inventory.
-
-These instructions reflect the viewer's Python tab reviewed on October 21, 2026. Download the script from the application to obtain its current version.
