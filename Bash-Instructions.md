@@ -93,6 +93,3 @@ The viewer's Bash tab does not document a `--vhub-id` parameter; do not assume t
 - On macOS, verify that your terminal uses the newly installed Bash rather than the older system version.
 - If the target subscription is missing, confirm the signed-in tenant and your Reader permissions.
 - If discovery reports errors, review them before treating the diagram as a complete inventory.
-- Handle the JSON and exported diagrams as sensitive infrastructure information. Share only through approved channels.
-
-These instructions reflect the viewer's Bash tab reviewed on October 21, 2026. Download the script from the application to obtain its current version.
