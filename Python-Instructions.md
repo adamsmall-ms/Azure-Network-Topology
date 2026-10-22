@@ -14,9 +14,7 @@ No `jq` installation is required.
 ## 1. Download the script
 
 1. Open https://github.com/adamsmall-ms/Azure-Network-Topology
-2. Select the terminal toolbar icon labeled **Generate JSON via scripts**.
-3. Select **Python**, then **Download Python Script**.
-4. Save `get-network-topology.py` and open a terminal in that folder.
+2. Save `get-network-topology.py` and open a terminal in that folder.
 
 ## 2. Check prerequisites and sign in
 
@@ -87,6 +85,5 @@ Without a baseline, `topologyVersion` defaults to 1. Keep the previous JSON unde
 - If Python or `az` is not found, install the prerequisite or correct your terminal's PATH.
 - If the target subscription is missing, confirm the signed-in tenant and your Reader permissions.
 - If discovery reports errors, review them before treating the diagram as a complete inventory.
-- Handle the JSON and exported diagrams as sensitive infrastructure information. Share only through approved channels.
 
 These instructions reflect the viewer's Python tab reviewed on October 21, 2026. Download the script from the application to obtain its current version.
