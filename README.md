@@ -23,7 +23,7 @@ Not sure which to choose? Use whichever runtime you already have installed. If y
 Whichever script you choose, you need:
 
 - Azure CLI 2.60 or later, signed in (`az login`) to the correct tenant
-- The Azure CLI `resource-graph` extension. If it's missing, the PowerShell, Bash and Python scripts offer to install it, or you can run `az extension add --name resource-graph`
+- The Azure CLI `resource-graph` extension. If it's missing, the scripts offer to install it, or you can run `az extension add --name resource-graph`
 - Reader access to every subscription you want to include
 - The runtime listed for your script in the table above
 
