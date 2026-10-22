@@ -3,7 +3,7 @@
 These scripts discover your Azure network topology (VNets, vWAN hubs, subnets, peerings, gateways, ExpressRoute circuits, VPN sites and on-premises connections) and save it as a JSON file for your Azure ACE.
 
 > [!NOTE]
-> The Graph (Python) script is also still under test and may not cover every edge case the standard scripts handle.
+> The Graph (Python) script is under test and may not cover every edge case the standard scripts handle.
 
 ## Step 1 – Choose a script and download it
 
